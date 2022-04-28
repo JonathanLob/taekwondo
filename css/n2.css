@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#n2{
+    display: inline-block;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+#n2 img{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+    margin: 10px;
+    border: solid 3px rgb(219, 223, 203);
+}
+#n2 p{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+    margin: 10px;
+}

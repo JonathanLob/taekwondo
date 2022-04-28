@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+footer p{
+    color: rgb(58, 103, 236);
+}
+.derechos{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer .contenedor{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 12px;
+}
+.sociales a{
+    color: rgb(12, 94, 202);
+    text-decoration: none;
+}
+.sociales a:hover{
+    cursor: pointer;
+    color: rgba(219, 223, 203, 0.8);
+}

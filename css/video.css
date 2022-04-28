@@ -1,0 +1,14 @@
+@charset "utf-8";
+#video{
+    padding-top: 55px;
+}
+.you{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+iframe{
+    width: 60%;
+    min-width: 360px;
+    border: solid 3px rgb(219, 223, 203);
+}

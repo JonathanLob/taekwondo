@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* #n1_contacto img{
+    margin-top: 0px;
+    width: 100%;
+    height: 300px;
+} */
+
+#n1_contacto{
+    background-color: rgb(213, 224, 226);
+    color: black;
+    padding: 15px;
+    justify-content: center;
+    border: solid 3px rgb(219, 223, 203);
+}
+section .contenedor{
+    text-align: center;
+}
+#n1_contacto .galeria_contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#n1_contacto .titulo{
+    color: royalblue;
+    margin-bottom: 10px; 
+}
+.img_contacto{
+    width: 30%;
+    margin-bottom: 10px;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(152, 157, 228, 0.5);
+    border: solid 3px rgb(219, 223, 203);
+}
+.img_contacto >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hover-contacto{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background-color: rgba(238, 220, 57, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hover-contacto img{
+    width: 50px;
+} 
+.hover-contacto p{
+    color: rgb(252, 252, 252);
+    font-size: 10px;
+}
+.hover-contacto a{
+    text-decoration: none;
+}
+.img_contacto:hover .hover-contacto{
+    transform: scale(1);
+}

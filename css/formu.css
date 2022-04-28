@@ -1,0 +1,49 @@
+@charset "utf-8";
+body{
+    background-image: url(../img/fondo5.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form{
+    width: 350px;
+    margin: auto;
+    background: rgba(196, 230, 181, 0.3);
+    padding: 15px 15px;
+    box-sizing: border-box;
+    margin-top: 140px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid 3px rgb(219, 223, 203);
+}
+h2{
+    color: rgba(6, 60, 236, 0.5);
+    text-align: center;
+    font-size: 30px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: none;
+    background: rgba(242, 253, 253, 0.8);    
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background: rgba(37, 36, 90, 0.9);
+    color: seashell;
+    padding: 10px;
+    width: 200px;
+}
+#boton:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 1);
+    color: rgb(236, 139, 70);
+}
